@@ -6,7 +6,7 @@ const Login = () => {
   const [error, setError] = useState("");
   const navigate = useNavigate();
   const handleLogin = () => {
-    if (username === "arvind" && password === "123456") {
+    if (username === "arvind" && password === "Arvind@123") {
       navigate("/dashboard");
     } else {
       setError("Invalid username or password");

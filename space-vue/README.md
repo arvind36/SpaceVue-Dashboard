@@ -2,6 +2,41 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Project Overview
+
+This project is a dashboard for a space mission monitoring application named 'SpaceVue'. It displays recent space mission data using AG-Grid for the tabular format.
+
+## Technical Requirements for this project
+
+- React.js for frontend development.
+- AG-Grid for rendering the table.
+- Fetch and display provided data with API fetching using axios.
+
+## Project Structure
+
+SpaceVue-Dashboard/
+├── space-vue/
+│ ├── src/
+│ │ ├── components/
+│ │ │ ├── Dashboard.js
+│ │ │ ├── Login.js
+│ │ ├── App.js
+│ │ ├── index.js
+│ ├── public/
+│ ├── README.md
+
+## How to Run
+
+1. Clone the repository.
+2. Navigate to the `space-vue` directory.
+3. Install dependencies: `npm install`.
+4. Start the development server: `npm start`.
+
+## Mock Login
+
+- Username: `arvind`
+- Password: `Arvind@123`
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -38,33 +73,3 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
