@@ -28,7 +28,7 @@ SpaceVue-Dashboard/
 3. Install dependencies: `npm install`.
 4. Start the development server: `npm start`.
 
-## Mock Login
+## Login Details
 
 - Username: `arvind`
 - Password: `Arvind@123`
